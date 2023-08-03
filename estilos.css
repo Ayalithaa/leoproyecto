@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+#encabezado {
+    background-color: #36C;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#encabezado h1 {
+    margin: 0;
+}
+
+#encabezado a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos del contenido */
+#contenido {
+    padding: 20px;
+}
+
+/* Imagen de fondo */
+body {
+    background-image: url("carpeta/fondo.jpg");
+    background-size: cover;
+}
+
+/* Estilos específicos para cada página */
+/* Página 1 */
+body.pagina1 #encabezado {
+    background-color: #007bff;
+}
+
+body.pagina1 #contenido {
+    border: 2px solid #007bff;
+}
+
+/* Página 2 */
+body.pagina2 #encabezado {
+    background-color: #dc3545;
+}
+
+body.pagina2 #contenido {
+    border: 2px solid #dc3545;
+}
